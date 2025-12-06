@@ -1,0 +1,24 @@
+[project]
+name = "ethique"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "matplotlib>=3.10.7",
+    "pandas>=2.3.3",
+    "torch>=2.9.1",
+    "torchaudio>=2.9.1",
+    "torchvision>=0.24.1",
+]
+
+[[tool.uv.index]]
+url = "file:///home/yassineamjad/Desktop/ethique/pytorch-compat"
+
+[[tool.uv.index]]
+url = "file:///home/yassineamjad/Desktop/ethique/pytorch"
+
+[[tool.uv.index]]
+name = "pytorch-compat"
+url = "https://download.pytorch.org/whl/cu118"
+explicit = true
